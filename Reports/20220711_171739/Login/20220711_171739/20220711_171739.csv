@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 103.0.5060.114,,,2022-07-11 17:17:42,2022-07-11 17:17:56,14.412s,PASSED
+,,,,,,,
+Test Cases/Login/LoginFail,Chrome 103.0.5060.114,,,2022-07-11 17:17:43,2022-07-11 17:17:51,8.237s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-11 17:17:43,2022-07-11 17:17:46,2.640s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-11 17:17:46,2022-07-11 17:17:46,0.198s,PASSED
+navigateToUrl(url),Chrome 103.0.5060.114,,,2022-07-11 17:17:46,2022-07-11 17:17:47,1.081s,PASSED
+"setText(findTestObject(""Object Repository/Login Object/inputUserName""), ""test"")",Chrome 103.0.5060.114,,,2022-07-11 17:17:47,2022-07-11 17:17:48,1.337s,PASSED
+"setText(findTestObject(""Object Repository/Login Object/inputPassword""), ""test"")",Chrome 103.0.5060.114,,,2022-07-11 17:17:48,2022-07-11 17:17:49,0.842s,PASSED
+"click(findTestObject(""Object Repository/Login Object/btnLogin""))",Chrome 103.0.5060.114,,,2022-07-11 17:17:49,2022-07-11 17:17:50,0.470s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Login Object/errorMessageLogin""))",Chrome 103.0.5060.114,,,2022-07-11 17:17:50,2022-07-11 17:17:50,0.534s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-11 17:17:50,2022-07-11 17:17:51,0.681s,PASSED
+,,,,,,,
+Test Cases/Login/LoginSuccess,Chrome 103.0.5060.114,,,2022-07-11 17:17:51,2022-07-11 17:17:56,5.696s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-11 17:17:51,2022-07-11 17:17:52,1.174s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-11 17:17:52,2022-07-11 17:17:52,0.141s,PASSED
+navigateToUrl(url),Chrome 103.0.5060.114,,,2022-07-11 17:17:52,2022-07-11 17:17:53,0.527s,PASSED
+"setText(findTestObject(""Object Repository/Login Object/inputUserName""), username)",Chrome 103.0.5060.114,,,2022-07-11 17:17:53,2022-07-11 17:17:54,1.060s,PASSED
+"setText(findTestObject(""Object Repository/Login Object/inputPassword""), password)",Chrome 103.0.5060.114,,,2022-07-11 17:17:54,2022-07-11 17:17:55,0.832s,PASSED
+"click(findTestObject(""Object Repository/Login Object/btnLogin""))",Chrome 103.0.5060.114,,,2022-07-11 17:17:55,2022-07-11 17:17:55,0.458s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/HomeObject/span_Products""))",Chrome 103.0.5060.114,,,2022-07-11 17:17:55,2022-07-11 17:17:56,0.514s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-11 17:17:56,2022-07-11 17:17:56,0.649s,PASSED

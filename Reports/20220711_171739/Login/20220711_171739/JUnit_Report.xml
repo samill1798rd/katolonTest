@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="14.412" tests="2" failures="0" errors="0">
+   <testsuite name="Login" tests="2" failures="0" errors="0" time="14.412" skipped="0" timestamp="2022-07-11 17:17:42" hostname="Samill Rivas - DESKTOP-8AGN98I" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Samill Rivas\\git\\katolonTest\\Reports\\20220711_171739\\Login\\20220711_171739"/>
+         <property name="logFiles" value="C:\\Users\\Samill Rivas\\git\\katolonTest\\Reports\\20220711_171739\\Login\\20220711_171739\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Samill Rivas - DESKTOP-8AGN98I"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 103.0.5060.114"/>
+         <property name="hostAddress" value="10.0.0.23"/>
+         <property name="sessionId" value="f8e9c3950dea07b77b1af7a5992bbac1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/LoginFail" time="8.237" classname="Test Cases/Login/LoginFail" status="PASSED">
+         <system-out><![CDATA[2022-07-11 17:17:43 - [TEST_CASE][PASSED] - Test Cases/Login/LoginFail: Test Cases/Login/LoginFail
+
+2022-07-11 17:17:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-11 17:17:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-11 17:17:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-11 17:17:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-11 17:17:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-11 17:17:46 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-11 17:17:46 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-07-11 17:17:47 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-07-11 17:17:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Object/inputUserName"), "test"): Text 'test' is set on object 'Object Repository/Login Object/inputUserName'
+
+2022-07-11 17:17:48 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Login Object/inputUserName'
+
+2022-07-11 17:17:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Object/inputPassword"), "test"): Text 'test' is set on object 'Object Repository/Login Object/inputPassword'
+
+2022-07-11 17:17:49 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Login Object/inputPassword'
+
+2022-07-11 17:17:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Object/btnLogin")): Object: 'Object Repository/Login Object/btnLogin' is clicked on
+
+2022-07-11 17:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Object/btnLogin' is clicked on
+
+2022-07-11 17:17:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Login Object/errorMessageLogin")): Object 'Object Repository/Login Object/errorMessageLogin' is visible
+
+2022-07-11 17:17:50 - [MESSAGE][PASSED] - Object 'Object Repository/Login Object/errorMessageLogin' is visible
+
+2022-07-11 17:17:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-11 17:17:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/LoginSuccess" time="5.696" classname="Test Cases/Login/LoginSuccess" status="PASSED">
+         <system-out><![CDATA[2022-07-11 17:17:51 - [TEST_CASE][PASSED] - Test Cases/Login/LoginSuccess: Test Cases/Login/LoginSuccess
+
+2022-07-11 17:17:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-11 17:17:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-11 17:17:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-11 17:17:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-11 17:17:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-11 17:17:52 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-11 17:17:52 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-07-11 17:17:53 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-07-11 17:17:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Object/inputUserName"), username): Text 'standard_user' is set on object 'Object Repository/Login Object/inputUserName'
+
+2022-07-11 17:17:54 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Object/inputUserName'
+
+2022-07-11 17:17:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Object/inputPassword"), password): Text 'secret_sauce' is set on object 'Object Repository/Login Object/inputPassword'
+
+2022-07-11 17:17:55 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login Object/inputPassword'
+
+2022-07-11 17:17:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Object/btnLogin")): Object: 'Object Repository/Login Object/btnLogin' is clicked on
+
+2022-07-11 17:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Object/btnLogin' is clicked on
+
+2022-07-11 17:17:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/HomeObject/span_Products")): Object 'Object Repository/HomeObject/span_Products' is visible
+
+2022-07-11 17:17:56 - [MESSAGE][PASSED] - Object 'Object Repository/HomeObject/span_Products' is visible
+
+2022-07-11 17:17:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-11 17:17:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-11 17:17:42 - [TEST_SUITE][PASSED] - Login: Test Cases/Login/LoginSuccess]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

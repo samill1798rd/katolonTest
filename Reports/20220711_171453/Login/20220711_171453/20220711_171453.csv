@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 103.0.5060.114,,,2022-07-11 17:14:57,2022-07-11 17:15:18,21.050s,ERROR
+,,,,,,,
+Test Cases/Login/LoginFail,Chrome 103.0.5060.114,,,2022-07-11 17:15:07,2022-07-11 17:15:09,2.059s,ERROR
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-11 17:15:07,2022-07-11 17:15:08,1.906s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-11 17:15:08,2022-07-11 17:15:09,0.139s,PASSED
+navigateToUrl(url),Chrome 103.0.5060.114,,,2022-07-11 17:15:09,2022-07-11 17:15:09,0.002s,ERROR
+,,,,,,,
+Test Cases/Login/LoginSuccess,Chrome 103.0.5060.114,,,2022-07-11 17:15:16,2022-07-11 17:15:18,2.037s,ERROR
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-11 17:15:16,2022-07-11 17:15:18,1.842s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-11 17:15:18,2022-07-11 17:15:18,0.142s,PASSED
+navigateToUrl(url),Chrome 103.0.5060.114,,,2022-07-11 17:15:18,2022-07-11 17:15:18,0.001s,ERROR
